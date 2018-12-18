@@ -1,0 +1,22 @@
+---
+layout: page
+css: ["index.css"]
+---
+<div>
+  {% highlight java %}
+
+  public void welcome() {
+    String welcomeNote = "Welcome to our GitHub Open Source page!";
+    System.out.println(welcomeNote);
+  }
+
+  public void showProjects() {
+    String projectsSection = "Click on 'Projects' to see our open-source projects.";
+    goto(projectsSection);
+  }
+
+  public void showAbout() {
+    String aboutSection = "Click on 'About' to find more about us.";
+    goto(aboutSection);
+  }{% endhighlight %}
+</div>
