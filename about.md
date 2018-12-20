@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About Me"
+title: "About Us"
 css: ["about.css"]
 ---
 {% include about.html %}
